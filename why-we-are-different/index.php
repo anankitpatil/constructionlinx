@@ -1,13 +1,15 @@
 <?php include('../header.php'); ?>
-<link rel="canonical" href="http://constructionlinx.com/" />
-<title>Construction Linx</title>
+<meta name="description" content="Construction Linx is a professional and reliable property maintenance company providing comprehensive building services on an ad hoc or planned basis. We provide free-of-charge, fixed price quotations so there are no
+hidden extras to pay. We guarantee our work for a minimum of 6 months."/>
+<link rel="canonical" href="http://constructionlinx.com/why-we-are-different/" />
+<title>Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West | Why we are Different</title>
 <?php include('../nav.php'); ?>
 <div class="container">
   <ul class="rslides">
-    <li> <img src="<?php echo $PATH; ?>images/different_s_1.jpg" alt="First slide" /></li>
-    <li> <img src="<?php echo $PATH; ?>images/different_s_2.jpg" alt="First slide" /></li>
-    <li> <img src="<?php echo $PATH; ?>images/different_s_3.jpg" alt="First slide" /></li>
-    <li> <img src="<?php echo $PATH; ?>images/different_s_4.jpg" alt="First slide" /></li>
+    <li> <img src="<?php echo $PATH; ?>images/different_s_1.jpg" alt="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West" /></li>
+    <li> <img src="<?php echo $PATH; ?>images/different_s_2.jpg" alt="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West" /></li>
+    <li> <img src="<?php echo $PATH; ?>images/different_s_3.jpg" alt="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West" /></li>
+    <li> <img src="<?php echo $PATH; ?>images/different_s_4.jpg" alt="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West" /></li>
   </ul>
 </div>
 <div class="container different">
@@ -27,29 +29,29 @@
     <div class="row">
       <h2>Our customers like the fact that</h2>
       <div class="col-lg-4 col-md-4 col-sm-4">
-        <figure><img src="<?php echo $PATH; ?>images/diff_i_1.png" /></figure>
+        <figure><img src="<?php echo $PATH; ?>images/diff_i_1.png" alt="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West - No Hidden Charges" /></figure>
         <p>We provide free-of-charge, fixed price quotations so there are no hidden extras to pay</p>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-4">
-        <figure><img src="<?php echo $PATH; ?>images/diff_i_2.png" /></figure>
+        <figure><img src="<?php echo $PATH; ?>images/diff_i_2.png" alt="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West - Systemized Approact to Project Planning" /></figure>
         <p>We have a systemised approach to project planning and monitoring so you know how a job is progressing and when it will be complete</p>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-4">
-        <figure><img src="<?php echo $PATH; ?>images/diff_i_3.png" /></figure>
+        <figure><img src="<?php echo $PATH; ?>images/diff_i_3.png" alt="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West - Specialist Tradesmen" /></figure>
         <p>We have a team of specialist tradesmen who are certified and accredited so you know the job will be done professionally and safely</p>
       </div>
     </div>
     <div class="row">
       <div class="col-lg-4 col-md-4 col-sm-4">
-        <figure><img src="<?php echo $PATH; ?>images/diff_i_4.png" /></figure>
+        <figure><img src="<?php echo $PATH; ?>images/diff_i_4.png" alt="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West - Flexible Payment Options" /></figure>
         <p>We offer a range of flexible payment options</p>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-4">
-        <figure><img src="<?php echo $PATH; ?>images/diff_i_5.png" /></figure>
+        <figure><img src="<?php echo $PATH; ?>images/diff_i_5.png" alt="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West - High Standard of Work" /></figure>
         <p>Our tradesmen sign up to our company charter which ensures a high standard of work, excellent housekeeping, time-keeping</p>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-4">
-        <figure><img src="<?php echo $PATH; ?>images/diff_i_6.png" /></figure>
+        <figure><img src="<?php echo $PATH; ?>images/diff_i_6.png" alt="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West - Guarantee for Minimum 6 Months" /></figure>
         <p>We guarantee our work for a minimum of 6 months</p>
       </div>
     </div>

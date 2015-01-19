@@ -1,6 +1,7 @@
 <?php include('../header.php'); ?>
-<link rel="canonical" href="http://constructionlinx.com/" />
-<title>Construction Linx</title>
+<meta name="description" content="Construction Linx is a professional and reliable property maintenance company providing comprehensive building services on an ad hoc or planned basis. Contact address, telephone or email: Unit 8, Crewe Hall Enterprise Park, Crewe , Cheshire, CW1 6UA, 01270 848700, 01270 848701, info@constructionlinx.co.uk"/>
+<link rel="canonical" href="http://constructionlinx.com/contact/" />
+<title>Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West | Contact Address, Email & Phone</title>
 <?php include('../nav.php'); ?>
 <div class="container">
   <div class="map" id="map-canvas"></div>
@@ -29,16 +30,16 @@
         </div>
       </form>
     </div>
-    <div class="col-lg-6 col-md-6">
+    <div class="col-lg-6 col-md-6 addr">
       <p><i>A:</i> Construction Linx<br />
-		&nbsp;&nbsp;&nbsp;&nbsp;Unit 8<br />
-		&nbsp;&nbsp;&nbsp;&nbsp;Crewe Hall Enterprise Park<br />
-		&nbsp;&nbsp;&nbsp;&nbsp;Crewe<br />
-		&nbsp;&nbsp;&nbsp;&nbsp;Cheshire<br />
-		&nbsp;&nbsp;&nbsp;&nbsp;<strong>CW1 6UA</strong></p>
-	  <p><i>T:</i> &nbsp;01270 848700</p>
-	  <p><i>F:</i> &nbsp;01270 848701</p>
-	  <p><i>E:</i> &nbsp;info@constructionlinx.co.uk</p>
+		Unit 8<br />
+		Crewe Hall Enterprise Park<br />
+		Crewe<br />
+		Cheshire<br />
+		<strong>CW1 6UA</strong></p>
+	  <p><i>T:</i> 01270 848700</p>
+	  <p><i>F:</i> 01270 848701</p>
+	  <p><i>E:</i> info@constructionlinx.co.uk</p>
     </div>
   </div>
 </div>

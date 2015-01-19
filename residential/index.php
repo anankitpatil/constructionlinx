@@ -1,28 +1,29 @@
 <?php include('../header.php'); ?>
-<link rel="canonical" href="http://constructionlinx.com/" />
-<title>Construction Linx</title>
+<meta name="description" content="Construction Linx is a professional and reliable property maintenance company providing comprehensive building services on an ad hoc or planned basis. We work with homeowners and letting agents on a range of internal and external works, from refurbishments &amp; kitchen fittings to extensions &amp; conversions, our team of professional tradesmen have got you covered.">
+<link rel="canonical" href="http://constructionlinx.com/residential/" />
+<title>Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West | Residential</title>
 <?php include('../nav.php'); ?>
 <div class="container">
   <ul class="rslides">
-    <li> <img src="<?php echo $PATH; ?>images/home_s_1.jpg" alt="First slide" />
+    <li> <img src="<?php echo $PATH; ?>images/home_s_1.jpg" alt="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West" />
       <p>We respond quickly to emergencies</p>
     </li>
-    <li> <img src="<?php echo $PATH; ?>images/home_s_2.jpg" alt="First slide" />
+    <li> <img src="<?php echo $PATH; ?>images/home_s_2.jpg" alt="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West" />
       <p>We perform routine maintenance tasks<br />
         including servicing and inspection to ensure legislative compliance</p>
     </li>
-    <li> <img src="<?php echo $PATH; ?>images/home_s_3.jpg" alt="First slide" />
+    <li> <img src="<?php echo $PATH; ?>images/home_s_3.jpg" alt="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West" />
       <p>We consult on and carry out preventative maintenance</p>
     </li>
-    <li> <img src="<?php echo $PATH; ?>images/home_s_4.jpg" alt="First slide" />
+    <li> <img src="<?php echo $PATH; ?>images/home_s_4.jpg" alt="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West" />
       <p>We undertake building or renovation projects of any size</p>
     </li>
   </ul>
   <div class="row">
-    <div class="col-lg-3 col-md-3 col-sm-3"> <a class="mbutton smooth" href="<?php echo $PATH; ?>industrial/" class="smooth">Industrial</a> </div>
-    <div class="col-lg-3 col-md-3 col-sm-3"> <a class="mbutton smooth" href="<?php echo $PATH; ?>commercial/" class="smooth">Commercial</a> </div>
-    <div class="col-lg-3 col-md-3 col-sm-3"> <a class="mbutton smooth" href="<?php echo $PATH; ?>education/" class="smooth">Education</a> </div>
-    <div class="col-lg-3 col-md-3 col-sm-3"> <a class="mbutton active" href="<?php echo $PATH; ?>residential/" class="smooth">Residential</a> </div>
+    <div class="col-lg-3 col-md-3 col-sm-3"> <a class="mbutton smooth" href="<?php echo $PATH; ?>industrial/" class="smooth" title="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West | Industrial">Industrial</a> </div>
+    <div class="col-lg-3 col-md-3 col-sm-3"> <a class="mbutton active" href="<?php echo $PATH; ?>commercial/" class="smooth" title="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West | Commercial">Commercial</a> </div>
+    <div class="col-lg-3 col-md-3 col-sm-3"> <a class="mbutton smooth" href="<?php echo $PATH; ?>education/" class="smooth" title="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West | Education">Education</a> </div>
+    <div class="col-lg-3 col-md-3 col-sm-3"> <a class="mbutton smooth" href="<?php echo $PATH; ?>residential/" class="smooth" title="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West | Residential">Residential</a> </div>
   </div>
 </div>
 <div class="container greenbox">

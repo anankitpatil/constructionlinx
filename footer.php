@@ -18,6 +18,7 @@
 <script src="<?php echo $PATH; ?>assets/bootstrapValidator.min.js"></script>
 <script src="<?php echo $PATH; ?>assets/responsiveslides.min.js"></script>
 <script src="<?php echo $PATH; ?>assets/jquery.autosize.min.js"></script>
+<script src="<?php echo $PATH; ?>assets/jquery.form.min.js"></script>
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 <script type='text/javascript' src="//wurfl.io/wurfl.js"></script>
 <script src="<?php echo $PATH; ?>assets/scripts.js"></script>

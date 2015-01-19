@@ -57,7 +57,7 @@ body,html{font-family:'Lato', sans-serif}
 .different-green p{font-size:18px;padding:48px 36px;font-weight:300}
 
 .testimonial h2{text-transform:uppercase;color:#BFD363;font-size:30px;font-weight:400;text-align:center;margin:48px 0}
-.testimonial i{font-size:30px;line-height:0px}
+.testimonial i{font-size:30px;line-height:25px}
 .testimonial .col-lg-12:nth-of-type(3n){text-align:right}
 .testimonial p{color:#8E8E8E;font-size:15px}
 
@@ -75,8 +75,8 @@ body,html{font-family:'Lato', sans-serif}
 .services [class*=' col-']:last-of-type .box{margin-bottom:0px}
 .services .box h4{text-align:center;background:#BFD363;color:#FFF;margin:0 0 48px 0;padding:96px 48px 48px;font-size:21px;margin-top:-47px}
 .services .box p{padding:0 36px;font-size:18px;font-weight:300}
-.services .box figure{width:96px;height:96px;margin:-49px auto 0;padding:24px;-webkit-transform:rotate(-45deg);background:#FFF;-webkit-box-shadow:0px 0px 18px 0px rgba(50, 50, 50, 0.75);-moz-box-shadow:0px 0px 18px 0px rgba(50, 50, 50, 0.75);box-shadow:0px 0px 18px 0px rgba(50, 50, 50, 0.75)}
-.services .box figure img{width:100%;height:auto;-webkit-transform:rotate(45deg)}
+.services .box figure{width:96px;height:96px;margin:-49px auto 0;padding:24px;-webkit-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-moz-transform:rotate(-45deg);background:#FFF;-webkit-box-shadow:0px 0px 18px 0px rgba(50, 50, 50, 0.75);-moz-box-shadow:0px 0px 18px 0px rgba(50, 50, 50, 0.75);box-shadow:0px 0px 18px 0px rgba(50, 50, 50, 0.75)}
+.services .box figure img{width:100%;height:auto;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);-moz-transform:rotate(45deg)}
 
 .servicesbottom p:first-child{margin-top:96px}
 .servicesbottom p{font-size:24px;font-weight:300}
@@ -87,13 +87,13 @@ body,html{font-family:'Lato', sans-serif}
 .trades a{display:block;width:100%;position:relative;background:#BFD363}
 .trades a h4{opacity:0}
 .trades a:hover h4{opacity:1}
-.trades a:hover img{-webkit-transform:scale(0.96)}
+.trades a:hover img{-webkit-transform:scale(0.96);-ms-transform:scale(0.96);-moz-transform:scale(0.96)}
 .trades .col-lg-4 a{width:73%;margin:0 auto}
 .trades a img{width:100%}
 .trades h4{text-transform:uppercase;color:#BFD363;font-size:24px;font-weight:300;text-align:center;position:absolute;top:50%;width:100%;background:#FFF;line-height:48px;margin-top:-24px}
 .trades .row{margin-bottom:96px}
 .trades figure img{width:100%}
-.trades .content{position:absolute;top:50%;-webkit-transform:translateY(-50%);width:100%}
+.trades .content{position:absolute;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);-moz-transform:translateY(-50%);width:100%}
 .trades .content h3{text-transform:uppercase;color:#FFF;font-size:24px;font-weight:700;margin:24px 0}
 .trades .content ul{margin-top:96px}
 .trades .content ul li{font-size:24px;color:#FFF}
@@ -113,8 +113,10 @@ body,html{font-family:'Lato', sans-serif}
 .contact p{font-size:18px;margin:24px 0}
 .contact .btn{background:none;color:#000;padding:6px 48px;float:right}
 .contact .btn:hover{background:#F4F4F4}
-.contact i{color:#BFD363}
+.contact .addr p:first-child i{margin-lefT:-21px}
+.contact i{color:#BFD363;margin-left:-18px}
 .contact .form-control-feedback{top:30px !important}
+.contact .addr p{margin-left:24px}
 
 .singlenews{margin-top:24px}
 .singlenews h2{text-transform:uppercase;color:#BFD363;font-size:30px;font-weight:400;text-align:center;margin:48px 0 24px}
@@ -124,12 +126,15 @@ body,html{font-family:'Lato', sans-serif}
 .singlenews .col-lg-8{font-size:18px;margin:24px 0;font-weight:300;text-align:justify;text-justify:inter-word}
 .singlenews .btn{border-radius:0;border-color:#BFD363;font-size:18px;margin:48px 24px 24px;padding:6px 48px}
 
-.newspage figure{max-height:480px;overflow:hidden;margin-bottom:48px}
+.newspage figure{max-height:480px;overflow:hidden}
 .newspage figure img{width:100%;height:auto}
+.newspage .item{margin-bottom:48px}
 .newspage h2{text-transform:uppercase;font-size:24px}
-.newspage h4{margin:48px 0;color:#6D6D6D}
+.newspage h4{margin:24px 0;color:#B9B9B9;font-weight:300}
 .newspage p{font-size:18px;font-weight:300}
-.newspage .btn{float:right}
+.newspage .btn{float:right;margin-top:24px;border-radius:0;font-size:18px;border-color:#BFD363}
+.newspage .homeb{float:none}
+.newspage .btn i{margin-left:12px}
 
 .footer{text-align:center;margin-top:60px}
 .footer p:first-of-type{margin-bottom:24px}
@@ -141,9 +146,13 @@ body,html{font-family:'Lato', sans-serif}
 .footer .container-fluid:first-child{background:#BFD363;padding:24px 0}
 .footer .container-fluid:last-child{background:#C3C3C3;padding:36px 0 12px}
 
+@media(max-width:480px){
+	.rslides img{margin-left:-180px}
+}
+
 @media(max-width:767px){
 	.rslides li{height:275px}
-	.rslides img{height:100%;width:auto !important}
+	.rslides img{height:100% !important;width:auto !important}
 	.guarantee{margin:0 15px;padding:0 24px}
 	.guarantee p{font-size:18px;display:block}
 	.guarantee p img{position:static;width:100%;padding:24px 40%}
@@ -154,6 +163,7 @@ body,html{font-family:'Lato', sans-serif}
 	#trade .col-lg-6{position:static}
 	#trade .close{position:absolute;top:12px;right:48px}
 	.trades .content{top:0px;-webkit-transform:none}
+	.trades .row{margin-bottom:0px}
 }
 
 /* Small */
