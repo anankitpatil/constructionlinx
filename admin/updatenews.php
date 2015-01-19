@@ -1,5 +1,6 @@
 <?php 
-define("UPLOAD_DIR", "/home/renewdesign/public_html/agriwash/uploads/");
+define("UPLOAD_DIR", "/Applications/XAMPP/xamppfiles/htdocs/constructionlinx/uploads/");
+//define("UPLOAD_DIR", "/home/renewdesign/public_html/.../uploads/");
 if(isset($_REQUEST))
 {
 	include("config/db.php");

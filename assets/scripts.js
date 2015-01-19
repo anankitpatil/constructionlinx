@@ -29,4 +29,31 @@ $(document).ready(function() {
 		});
 		infowindow.open(map,marker);
 	}
+	//Services
+	if($('.services').length && !WURFL.is_mobile && ($(window).width() >= 992)){
+		var maxHeight = 0;
+		$('.services').find('.box').each(function(){
+			if(maxHeight < $(this).outerHeight()) maxHeight = $(this).outerHeight();
+		});
+		$('.services').find('.box').css({ height: maxHeight + 'px' });
+	}
+	//Contact form
+	if($('.contact').length){
+		$('#contact').bootstrapValidator({
+			message: 'This value is not valid',
+			submitButtons: '#submit',
+			trigger: null
+		}).on('success.form.bv', function(e){
+			e.preventDefault();
+			var $form = $(e.target);
+			var bv = $form.data('bootstrapValidator');
+			$.post($form.attr('action'), $form.serialize(), function(result) {
+				$('#contact').hide(300);
+				$('.contact .alert-success').show(300);
+			}).fail(function() {
+				$('#contact').hide(300);
+				$('.contact .alert-danger').show(300);
+			});
+		});
+	}
 });

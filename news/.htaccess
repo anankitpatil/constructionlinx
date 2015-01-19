@@ -1,0 +1,2 @@
+#News section
+RewriteRule ^([a-zA-Z0-9_-]+)/?$ show.php?title=$1

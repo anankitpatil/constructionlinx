@@ -1,39 +1,64 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 
-body,html{font-family: 'Lato', sans-serif}
+body,html{font-family:'Lato', sans-serif}
 .nopadding{padding:0}
+.smooth{-webkit-transition:all 300ms ease-out;-moz-transition:all 300ms ease-out;-o-transition:all 300ms ease-out;transition:all 300ms ease-out}
+.short-line{display:block;height:2px;width:150px;margin:48px auto 0;background:#FFF}
 
 .nav{margin:36px 0 3px}
 .nav li a,.nav li a:hover,.nav li a:focus{color:#000;background-color:transparent !important}
-.nav li a{border-bottom:2px solid transparent;font-weight:300}
-.nav li a:hover{border-bottom:2px solid #BFD363 !important}
+.nav li a{border-bottom:2px solid transparent;font-weight:300;font-size:15px}
+.nav li a:hover,.nav .open>a{border-bottom:2px solid #BFD363 !important}
 .nav li .dropdown-menu{border:0;box-shadow:none;border-radius:0;width:100%;text-align:center;padding:0}
 .nav li .dropdown-menu li a{line-height:36px}
+.navbar{margin-bottom:0px}
+.navbar .navbar-brand{height:111px}
+.navbar-header button{border-color:#BFD363;margin-top:42px}
+.navbar-header .icon-bar{background-color:#BFD363}
 
-.rslides p{position:absolute;bottom:48px;width:100%;background:rgba(255,255,255,0.9);font-size:24px;text-align:center;font-weight:300;line-height:60px}
+.rslides p{position:absolute;bottom:48px;width:100%;background:rgba(255,255,255,0.9);font-size:18px;text-align:center;font-weight:400;padding:36px 0}
 
-.mbutton{text-align:center;display:block;font-size:21px;text-transform:uppercase;font-weight:300;color:#000;border:2px solid #BFD363;border-radius:6px;line-height:48px;margin-top:24px}
+.mbutton{text-align:center;display:block;font-size:18px;text-transform:uppercase;font-weight:400;color:#000;border:2px solid #BFD363;border-radius:3px;line-height:48px;margin-top:24px}
 .mbutton:hover{color:#BFD363;text-decoration:none}
+.mbutton.active{color:#BFD363}
 
 .green{background:#BFD363;margin:24px 0;text-align:center;padding:60px}
 .green p{font-size:24px;font-weight:300}
 .green p:last-child{margin-top:48px;color:#FFF}
 
-.areas h2{text-transform:uppercase;color:#BFD363;font-size:27px;font-weight:400;text-align:center;margin:48px 0}
+.greenbox{padding:6px}
+.greenbox h2{text-align:center;text-transform:uppercase;color:#BFD363;font-size:30px;font-weight:400;text-align:center;padding:60px 0 48px}
+.greenbox .col-lg-12{background:#BFD363;padding:6px;font-size:21px;font-weight:300;text-align:center}
+.greenbox .col-lg-12 div{border:3px solid #FFF;padding:96px 45px 45px 45px}
+.greenbox blockquote{color:#FFF;font-weight:400;border:0;font-size:21px}
+.greenbox blockquote footer{margin:24px 0 0;text-align:right}
+
+.areas h2{text-transform:uppercase;color:#BFD363;font-size:27px;font-weight:400;text-align:center;margin:0 0 48px}
 .areas .col-lg-3{font-size:18px;font-weight:300;padding:72px 24px}
+.areas figure{text-align:center}
+.areas figure img{max-width:100%}
+
+.newsection{margin:96px auto}
+.newsection h2{text-transform:uppercase;color:#BFD363;font-size:30px;font-weight:400;text-align:center;margin:0 0 96px}
+.newsection figure{overflow:hidden;height:252px}
+.newsection figure img{width:100%;height:auto}
+.newsection .item h2{color:#000;font-size:27px;text-align:left;margin-bottom:24px;text-transform:none;margin:24px 0}
+.newsection p{font-size:18px;font-weight:300}
+.newsection a{float:right;font-size:18px;margin-top:24px;border-radius:0;border-color:#BFD363}
 
 .different{padding-bottom:48px}
-.different h2{text-transform:uppercase;color:#BFD363;font-size:36px;font-weight:400;text-align:center;padding:60px 0 48px}
-.different p{font-size:21px;font-weight:300;text-align:center}
+.different h2{text-transform:uppercase;color:#BFD363;font-size:30px;font-weight:400;text-align:center;padding:60px 0 48px}
+.different p{font-size:24px;font-weight:300;text-align:center}
+.different .short-line{background:#000;margin-bottom:48px}
 
-.different-green{background:#BFD363;margin:24px 0;text-align:center;padding:96px 0 48px}
+.different-green{background:#BFD363;margin:24px 0;text-align:center;padding:66px 0 48px}
+.different-green h2{text-transform:uppercase;font-size:30px;font-weight:400;text-align:center;margin:48px 0 72px}
 .different-green figure img{width:20%;height:auto;margin:0 auto}
 .different-green p{font-size:18px;padding:48px 36px;font-weight:300}
 
-.testimonial h2{text-transform:uppercase;color:#BFD363;font-size:36px;font-weight:400;text-align:center;margin:48px 0}
-.testimonial i{font-size:36px}
+.testimonial h2{text-transform:uppercase;color:#BFD363;font-size:30px;font-weight:400;text-align:center;margin:48px 0}
+.testimonial i{font-size:30px;line-height:0px}
 .testimonial .col-lg-12:nth-of-type(3n){text-align:right}
-.testimonial .carousel .container{height:180px}
 .testimonial p{color:#8E8E8E;font-size:15px}
 
 .guarantee{border:5px solid #BFD363;border-radius:6px;padding:0 96px}
@@ -45,8 +70,9 @@ body,html{font-family: 'Lato', sans-serif}
 .certs h2{text-transform:uppercase;color:#BFD363;font-size:36px;font-weight:400;text-align:center;margin:48px 0}
 .certs img{width:100%;height:auto}
 
-.services h2{text-transform:uppercase;color:#BFD363;font-size:36px;font-weight:400;text-align:center;margin:48px 0 150px}
-.services .box{border:3px solid #BFD363;border-radius:6px;padding-bottom:48px}
+.services h2{text-transform:uppercase;color:#BFD363;font-size:30px;font-weight:400;text-align:center;margin:48px 0 150px}
+.services .box{border:3px solid #BFD363;border-radius:6px;padding-bottom:48px; margin-bottom:48px}
+.services [class*=' col-']:last-of-type .box{margin-bottom:0px}
 .services .box h4{text-align:center;background:#BFD363;color:#FFF;margin:0 0 48px 0;padding:96px 48px 48px;font-size:21px;margin-top:-47px}
 .services .box p{padding:0 36px;font-size:18px;font-weight:300}
 .services .box figure{width:96px;height:96px;margin:-49px auto 0;padding:24px;-webkit-transform:rotate(-45deg);background:#FFF;-webkit-box-shadow:0px 0px 18px 0px rgba(50, 50, 50, 0.75);-moz-box-shadow:0px 0px 18px 0px rgba(50, 50, 50, 0.75);box-shadow:0px 0px 18px 0px rgba(50, 50, 50, 0.75)}
@@ -55,21 +81,55 @@ body,html{font-family: 'Lato', sans-serif}
 .servicesbottom p:first-child{margin-top:96px}
 .servicesbottom p{font-size:24px;font-weight:300}
 .servicesbottom p:last-child{margin-bottom:48px;color:#BFD363}
+.servicesbottom .short-line{background:#BFD363;margin-bottom:48px}
 
-.trades h2{text-transform:uppercase;color:#BFD363;font-size:36px;font-weight:400;text-align:center;margin:48px 0}
-.trades a{display:block;width:100%;position:relative}
+.trades h2{text-transform:uppercase;color:#BFD363;font-size:30px;font-weight:400;text-align:center;margin:48px 0 96px}
+.trades a{display:block;width:100%;position:relative;background:#BFD363}
+.trades a h4{opacity:0}
+.trades a:hover h4{opacity:1}
+.trades a:hover img{-webkit-transform:scale(0.96)}
 .trades .col-lg-4 a{width:73%;margin:0 auto}
 .trades a img{width:100%}
 .trades h4{text-transform:uppercase;color:#BFD363;font-size:24px;font-weight:300;text-align:center;position:absolute;top:50%;width:100%;background:#FFF;line-height:48px;margin-top:-24px}
 .trades .row{margin-bottom:96px}
 .trades figure img{width:100%}
 .trades .content{position:absolute;top:50%;-webkit-transform:translateY(-50%);width:100%}
-.trades .content h3{text-transform:uppercase;color:#FFF;font-size:36px;font-weight:400;margin:24px 0}
+.trades .content h3{text-transform:uppercase;color:#FFF;font-size:24px;font-weight:700;margin:24px 0}
 .trades .content ul{margin-top:96px}
 .trades .content ul li{font-size:24px;color:#FFF}
 .trades .content .close{color:#FFF;font-size:48px;opacity:0.66}
+.trades .content .close:hover{opacity:1}
+
+.modal#trade .modal-backdrop{opacity:0.84}
 
 .map{height:480px}
+
+.contact{font-weight:300}
+.contact h2{text-transform:uppercase;color:#BFD363;font-size:30px;font-weight:400;text-align:center;margin:96px 0}
+.contact .alert{display:none;border-radius:0;margin-top:25%}
+.contact .form-group{padding:0 15px}
+.contact input,.contact textarea{border-radius:0;border-color:#BFD363}
+.contact label{font-weight:300;font-size:18px}
+.contact p{font-size:18px;margin:24px 0}
+.contact .btn{background:none;color:#000;padding:6px 48px;float:right}
+.contact .btn:hover{background:#F4F4F4}
+.contact i{color:#BFD363}
+.contact .form-control-feedback{top:30px !important}
+
+.singlenews{margin-top:24px}
+.singlenews h2{text-transform:uppercase;color:#BFD363;font-size:30px;font-weight:400;text-align:center;margin:48px 0 24px}
+.singlenews h4{text-align:center;font-size:15px;color:#8B8B8B}
+.singlenews figure{text-align:center}
+.singlenews figure img{max-width:100%}
+.singlenews .col-lg-8{font-size:18px;margin:24px 0;font-weight:300;text-align:justify;text-justify:inter-word}
+.singlenews .btn{border-radius:0;border-color:#BFD363;font-size:18px;margin:48px 24px 24px;padding:6px 48px}
+
+.newspage figure{max-height:480px;overflow:hidden;margin-bottom:48px}
+.newspage figure img{width:100%;height:auto}
+.newspage h2{text-transform:uppercase;font-size:24px}
+.newspage h4{margin:48px 0;color:#6D6D6D}
+.newspage p{font-size:18px;font-weight:300}
+.newspage .btn{float:right}
 
 .footer{text-align:center;margin-top:60px}
 .footer p:first-of-type{margin-bottom:24px}
@@ -80,6 +140,36 @@ body,html{font-family: 'Lato', sans-serif}
 .footer ul li a{text-align:center;display:block;line-height:48px;font-size:27px;background:#5D5D5D;width:48px;margin:0 12px;border-radius:3px}
 .footer .container-fluid:first-child{background:#BFD363;padding:24px 0}
 .footer .container-fluid:last-child{background:#C3C3C3;padding:36px 0 12px}
+
+@media(max-width:767px){
+	.rslides li{height:275px}
+	.rslides img{height:100%;width:auto !important}
+	.guarantee{margin:0 15px;padding:0 24px}
+	.guarantee p{font-size:18px;display:block}
+	.guarantee p img{position:static;width:100%;padding:24px 40%}
+	.certs .col-lg-2{width:33%;float:left}
+	.services [class*=' col-']:nth-of-type(2) .box,.services [class*=' col-']:first-of-type .box{margin-bottom:120px}
+	.trades .col-lg-3 a{width:73%;margin:0 auto}
+	.trades .col-lg-3,.trades .col-lg-4{margin-bottom:48px}
+	#trade .col-lg-6{position:static}
+	#trade .close{position:absolute;top:12px;right:48px}
+	.trades .content{top:0px;-webkit-transform:none}
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px){
+	.nav{margin-top:0px}
+	.navbar-header{float:left;padding:15px;text-align:center;width:100%}
+	.navbar-brand{float:none;display:block}
+	.navbar-brand img{margin:0 auto}
+	.services [class*=' col-']:nth-of-type(2) .box,.services [class*=' col-']:first-of-type .box{margin-bottom:120px}
+}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px){}
+
+/* Large */
+@media(min-width:1200px){}
 
 /* Admin Section */
 .login, .login input,.login .btn{font-size:15px}
@@ -107,5 +197,6 @@ body,html{font-family: 'Lato', sans-serif}
 
 #myModal .subtract,#editModal .subtract{width:100%;text-align:center;display:none;opacity:0}
 #myModal form input, #editModal form input,#myModal form textarea, #editModal form textarea{margin-bottom:24px}
-#editModal .subtract{opacity:1;display:block}
 #editModal .edit-form{display:none}
+.edit-form .imagery img{width:100%}
+#myModal .modal-backdrop,#editModal .modal-backdrop{position:fixed}
