@@ -19,7 +19,7 @@
 		}
 		?>
       </div>
-      <form method="post" action="index.php" name="loginform" class="form-horizontal">
+      <form method="post" action="<?=$PHP_SELF?>" name="loginform" class="form-horizontal">
         <div class="form-group">
           <label for="login_input_username">Username</label>
           <input id="login_input_username" class="login_input form-control" type="text" name="user_name" placeholder="Enter Userame" required />

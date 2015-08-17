@@ -1,15 +1,13 @@
 <?php
 $name = $_POST["InputName"];
 $email = $_POST["InputEmail"];
-$number = $_POST["InputNumber"];
 $message = $_POST["InputMessage"];
-$to = 'anankitpatil@gmail.com';
-$subject = 'cobcheshire.com Registration Form';
+$to = 'info@constructionlinx.co.uk';
+$subject = 'constructionlinx.co.uk Contact Form';
 $message = 'From: ' . $name . "\r\n" .
 	'Email: ' . $email . "\r\n" .
-	'Phone number: ' . $number . "\r\n" .
 	'Message: ' . $message;
-$headers = 'From: contact@cobcheshire.com' . "\r\n" .
+$headers = 'From: contact@constructionlinx.co.uk' . "\r\n" .
     'Reply-To: ' . $email . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 	

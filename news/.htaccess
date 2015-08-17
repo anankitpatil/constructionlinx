@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /news/
+
+RewriteRule ^([a-z0-9_-]+)$ show.php?title=$1 [L,NC]
+</IfModule>

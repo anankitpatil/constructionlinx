@@ -1,0 +1,112 @@
+/* CSS Document */
+
+/* -- GENERIC ALL PAGES -- */
+
+#format /* Main Table */
+{width:750px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:1em;
+color:#000000;}
+
+p
+{text-align:justify;
+font-size:0.8em;
+margin-left:10px;
+margin-right:20px;
+margin-top:10px;
+font-weight:normal;}
+
+h1 /* Building Relationships. Maintaining Assets */
+{font-size:1em;
+text-align:right;}
+
+.style1 {color: #000000} /* Colour for Building Relationships */
+
+.style2 {color: #999999}  /* Colour for Maintaining Assets */
+
+a.body:link, a.body:visited, a.body:active /* Links within the body area */
+{text-decoration:none;
+font-weight:bold;
+color:#669900;
+font-size:1em;
+text-align:left;}
+a.body:hover 
+{text-decoration:underline;}
+
+.bullet /* body green square bullets */
+{line-height:1.3;
+list-style-image:url(images/bullet.gif);
+font-size:0.8em;
+padding-left:10px;
+margin-right:15px;}
+
+/* -- MAIN HEADER NAVIGATION -- */
+#menu
+{font-size:0.9em;
+text-align:center;
+color:#333333;
+font-weight:bold;}
+a.menu:link, a.menu:visited, a.menu:active{font-weight:normal;color:#333333;text-decoration:none;}
+a.menu:hover{font-weight:normal;color:#ffffff;text-decoration:none;}
+
+/* -- RIGHT HAND COLUMN -- */
+
+.style3 /* 1st Heading in right hand column */
+{color: #ffffff; 
+font-size:0.8em;
+text-align:center;
+font-weight:bold;} 
+
+h3 /* 2nd Sub Headings */
+{font-size:0.8em;
+color:#333333;
+margin-top:2px;
+margin-bottom:5px;}
+
+hr /* seperators */
+{width:100%;
+text-align:center;
+height:1px;
+color:#669900;
+background-color:#669900;}
+
+a.nav:link, a.nav:visited, a.nav:active /* links within the right column */
+{text-decoration:none;
+font-size:0.7em;
+color:#666666;
+text-align:left;}
+a.nav:hover 
+{text-decoration:underline;}
+
+.rbullet /* bullets within the right hand column */
+{line-height:1.1;
+font-size:0.7em;
+margin-left:0px;
+padding-left:0px;
+text-align:left;
+color:#666666;
+font-weight:normal;}
+
+/* -- CONTACT PAGE -- */
+
+.guarantee /* Our Guarantee Heading on the Contact Page */
+{font-size:1em;
+color:#666666;
+text-align:left;
+font-weight:bold;
+margin-top:5px;
+margin-bottom:0px;
+margin-left:10px;}
+
+/* -- FOOTER INFO -- */
+
+.footer /* All Text & links at bottom of page */
+{font-family:arial, sans-serif;
+font-size:10px;
+color:#999999;}
+a.footer:link, a.footer:visited, a.footer:active 
+{text-decoration:none;
+font-size:10px;
+color:#999999;}
+a.footer:hover 
+{text-decoration:underline;}

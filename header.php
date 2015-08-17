@@ -1,11 +1,11 @@
-<?php $PATH = 'http://localhost/constructionlinx/'; ?>
+<?php $PATH = 'http://constructionlinx.com/'; ?>
 <!DOCTYPE html>
 <html lang="en" unselectable="on">
 <head>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="description" content="">
-<meta name="tags" content="">
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+<meta name="keywords" content="Construction linx link properties industrial commercial education residential Bradford Blackburn Preston Blackpool Liverpool Wigan Bolton Oldham Halifax Leeds Wakefield Huddersfield Sheffiel Manchester Warrington Stockport Chester Crewe Stoke on Trent Derby Walsall Wolverhampton Birmingham Dudley Worcester Shrewsbury"/>
 <link href="<?php echo $PATH; ?>assets/bootstrap.min.css" rel="stylesheet">
 <link href="<?php echo $PATH; ?>assets/bootstrapValidator.min.css" rel="stylesheet">
 <link href="<?php echo $PATH; ?>assets/custom.css" rel="stylesheet">

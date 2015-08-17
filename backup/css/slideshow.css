@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ /* slideshow
+-----------------------------------------*/
+
+#slideshow {
+	position:relative;
+    height:475px;
+	width: 715px;
+}
+
+#slideshow DIV{
+    position:absolute;
+    top:0;
+    left:235px;
+    z-index:8;
+    opacity:0.0;
+    height: 475px;
+    background-color: #FFF;
+}
+
+#slideshow DIV.active {
+    z-index:10;
+    opacity:1.0;
+}
+
+#slideshow DIV.last-active {
+    z-index:9;
+}
+
+#slideshow DIV IMG {
+    height: 475px;
+    display: block;
+    border: 0;
+}

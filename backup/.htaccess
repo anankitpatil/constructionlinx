@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^$ http://constructionlinx.com/ [R=301,L]

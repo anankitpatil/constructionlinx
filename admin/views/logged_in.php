@@ -33,7 +33,7 @@
             </div>
             <div class="col-lg-12">
               <label for="content">Content</label>
-              <textarea name="content" class="content form-control" id="content">Enter the content here...</textarea>
+              <textarea name="content" class="content form-control smooth" id="content">Enter the content here...</textarea>
             </div>
             <div class="col-lg-12">
               <label for="image">Upload an image</label>
@@ -54,7 +54,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Loading...</h4>
+        <h4 class="modal-title">Edit this entry</h4>
       </div>
       <div class="modal-body form-group row">
           <form class="edit-form form-horizontal" enctype="multipart/form-data">
@@ -64,13 +64,13 @@
             </div>
             <div class="col-lg-12">
               <label for="content">Content</label>
-              <textarea name="content" class="content form-control" id="content">Enter the content here...</textarea>
+              <textarea name="content" class="content form-control smooth" id="content">Enter the content here...</textarea>
             </div>
             <div class="col-lg-12">
-              <label for="image">Upload an image</label>
+              <label for="image">Upload an image/Change existing image</label>
               <input type="file" class="image form-control" name="image" />
             </div>
-            <div class="col-lg-12">
+            <div class="col-lg-12 text-center">
               <a class="imagery" href="#" target="_blank"></a>
             </div>
           </form>
