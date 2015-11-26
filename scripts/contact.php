@@ -2,7 +2,11 @@
 $name = $_POST["InputName"];
 $email = $_POST["InputEmail"];
 $message = $_POST["InputMessage"];
+<<<<<<< HEAD
 $to = 'info@constructionlinx.co.uk';
+=======
+$to = 'anankitpatil@gmail.com';
+>>>>>>> origin/master
 $subject = 'constructionlinx.co.uk Contact Form';
 $message = 'From: ' . $name . "\r\n" .
 	'Email: ' . $email . "\r\n" .

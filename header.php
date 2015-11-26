@@ -5,7 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+<<<<<<< HEAD
 <meta name="keywords" content="Construction linx link properties industrial commercial education residential Bradford Blackburn Preston Blackpool Liverpool Wigan Bolton Oldham Halifax Leeds Wakefield Huddersfield Sheffiel Manchester Warrington Stockport Chester Crewe Stoke on Trent Derby Walsall Wolverhampton Birmingham Dudley Worcester Shrewsbury"/>
+=======
+<meta name="keywords" content="Construction linx link properties industrial commercial education residential Bradford Blackburn Preston Blackpool Liverpool Wigan Bolton Oldham Halifax Leeds Wakefield Huddersfield Sheffiel Manchester Warrington Stockport Chester Crewe Stoke on& Trent Derby Walsall Wolverhampton Birmingham Dudley Worcester Shrewsbury"/>
+>>>>>>> origin/master
 <link href="<?php echo $PATH; ?>assets/bootstrap.min.css" rel="stylesheet">
 <link href="<?php echo $PATH; ?>assets/bootstrapValidator.min.css" rel="stylesheet">
 <link href="<?php echo $PATH; ?>assets/custom.css" rel="stylesheet">

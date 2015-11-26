@@ -15,7 +15,11 @@ while($news = mysql_fetch_array($data)) { ?>
     <div class="item" id="<?php echo $news['id']; ?>">
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-6">
+<<<<<<< HEAD
           <figure><img src="http://renewgroupuk.com/constructionlinx/uploads/<?php echo $news['image']; ?>" alt="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West | <?php echo $news['title']; ?>" /></figure>
+=======
+          <figure><img src="../uploads/<?php echo $news['image']; ?>" alt="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West | <?php echo $news['title']; ?>" /></figure>
+>>>>>>> origin/master
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6">
           <h2><?php echo $news['title']; ?></h2>

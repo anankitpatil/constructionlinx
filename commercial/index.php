@@ -30,6 +30,7 @@
   <h2>Commercial</h2>
   <div class="col-lg-12">
     <div>
+<<<<<<< HEAD
       <?php include("../admin/allsections.php");
 	  while($sections = mysql_fetch_array($data)) { ?>
       	<p><?php if($sections['title'] == 'COMMERCIAL') {
@@ -38,6 +39,13 @@
         <footer><?php echo $sections['ref']; } ?></footer>
       </blockquote>
       <?php } ?>
+=======
+      <p>We work with commercial agents, landlords and end users of commercial properties to make sure they are safe and pleasant environments in which to work. We minimise disruption to business by responding quickly to fix any problem on an emergency or planned basis.</p>
+ 	  <p>Many of our clients prefer the peace of mind of a maintenance agreement as it helps eliminate the occurrence of breakdowns. Ask us about our tailored packages and read how we deliver excellent service to our valued customers.</p>
+      <blockquote>Having one number to turn to whenever there's a problem has become indispensable and knowing that we can trust them to provide a reliable team takes the stress out of the problems that can crop up on site
+        <footer>David Emery - Emery & Savage</footer>
+      </blockquote>
+>>>>>>> origin/master
     </div>
   </div>
 </div>

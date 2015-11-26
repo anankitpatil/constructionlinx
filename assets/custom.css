@@ -7,7 +7,11 @@ body,html{font-family:'Lato', sans-serif}
 
 .nav{margin:36px 0 3px}
 .nav li a,.nav li a:hover,.nav li a:focus{color:#000;background-color:transparent !important}
+<<<<<<< HEAD
 .nav li a{border-bottom:2px solid transparent;font-weight:300;font-size:15px;padding:10px 12px}
+=======
+.nav li a{border-bottom:2px solid transparent;font-weight:300;font-size:15px}
+>>>>>>> origin/master
 .nav li a:hover,.nav .open>a{border-bottom:2px solid #BFD363 !important}
 .nav li .dropdown-menu{border:0;box-shadow:none;border-radius:0;width:100%;text-align:center;padding:0}
 .nav li .dropdown-menu li a{line-height:36px}
@@ -16,10 +20,15 @@ body,html{font-family:'Lato', sans-serif}
 .navbar-header button{border-color:#BFD363;margin-top:42px}
 .navbar-header .icon-bar{background-color:#BFD363}
 
+<<<<<<< HEAD
 .strap{padding-bottom:12px;text-transform:uppercase;font-size:12px;font-weight:bold}
 
 .rslides p{position:absolute;bottom:48px;width:100%;background:#FFF;font-size:24px;text-align:center;font-weight:400;padding:36px 0}
 
+=======
+.rslides p{position:absolute;bottom:48px;width:100%;background:rgba(255,255,255,0.9);font-size:18px;text-align:center;font-weight:400;padding:36px 0}
+
+>>>>>>> origin/master
 .mbutton{text-align:center;display:block;font-size:18px;text-transform:uppercase;font-weight:400;color:#000;border:2px solid #BFD363;border-radius:3px;line-height:48px;margin-top:24px}
 .mbutton:hover{color:#BFD363;text-decoration:none}
 .mbutton.active{color:#BFD363}
@@ -29,7 +38,10 @@ body,html{font-family:'Lato', sans-serif}
 .green p:last-child{margin-top:48px;color:#FFF}
 
 .greenbox{padding:6px}
+<<<<<<< HEAD
 .greenbox white{color:#FFF}
+=======
+>>>>>>> origin/master
 .greenbox h2{text-align:center;text-transform:uppercase;color:#BFD363;font-size:30px;font-weight:400;text-align:center;padding:60px 0 48px}
 .greenbox .col-lg-12{background:#BFD363;padding:6px;font-size:21px;font-weight:300;text-align:center}
 .greenbox .col-lg-12 div{border:3px solid #FFF;padding:96px 45px 45px 45px}
@@ -88,7 +100,11 @@ body,html{font-family:'Lato', sans-serif}
 
 .trades h2{text-transform:uppercase;color:#BFD363;font-size:30px;font-weight:400;text-align:center;margin:48px 0 96px}
 .trades a{display:block;width:100%;position:relative;background:#BFD363}
+<<<<<<< HEAD
 .trades a h4{opacity:0.9}
+=======
+.trades a h4{opacity:0}
+>>>>>>> origin/master
 .trades a:hover h4{opacity:1}
 .trades a:hover img{-webkit-transform:scale(0.96);-ms-transform:scale(0.96);-moz-transform:scale(0.96)}
 .trades .col-lg-4 a{width:73%;margin:0 auto}
@@ -172,7 +188,10 @@ body,html{font-family:'Lato', sans-serif}
 /* Small */
 @media(min-width:768px) and (max-width:991px){
 	.nav{margin-top:0px}
+<<<<<<< HEAD
 	.nav li a{padding:10px 11px}
+=======
+>>>>>>> origin/master
 	.navbar-header{float:left;padding:15px;text-align:center;width:100%}
 	.navbar-brand{float:none;display:block}
 	.navbar-brand img{margin:0 auto}

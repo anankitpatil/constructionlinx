@@ -21,7 +21,11 @@
   </ul>
   <div class="row">
     <div class="col-lg-3 col-md-3 col-sm-3"> <a class="mbutton smooth" href="<?php echo $PATH; ?>industrial/" class="smooth" title="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West | Industrial">Industrial</a> </div>
+<<<<<<< HEAD
     <div class="col-lg-3 col-md-3 col-sm-3"> <a class="mbutton smooth" href="<?php echo $PATH; ?>commercial/" class="smooth" title="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West | Commercial">Commercial</a> </div>
+=======
+    <div class="col-lg-3 col-md-3 col-sm-3"> <a class="mbutton active" href="<?php echo $PATH; ?>commercial/" class="smooth" title="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West | Commercial">Commercial</a> </div>
+>>>>>>> origin/master
     <div class="col-lg-3 col-md-3 col-sm-3"> <a class="mbutton smooth" href="<?php echo $PATH; ?>education/" class="smooth" title="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West | Education">Education</a> </div>
     <div class="col-lg-3 col-md-3 col-sm-3"> <a class="mbutton smooth" href="<?php echo $PATH; ?>residential/" class="smooth" title="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West | Residential">Residential</a> </div>
   </div>
@@ -48,7 +52,11 @@
         while($news = mysql_fetch_array($data)) { ?>
         <div class="item <?php if( !defined('SET_ACT') ){ echo 'active'; define('SET_ACT', TRUE); } ?>" id="<?php echo $news['id']; ?>">
           <div class="col-lg-4 col-md-4 col-sm-4">
+<<<<<<< HEAD
             <figure><img src="http://renewgroupuk.com/constructionlinx/uploads/<?php echo $news['image']; ?>" /></figure>
+=======
+            <figure><img src="./uploads/<?php echo $news['image']; ?>" /></figure>
+>>>>>>> origin/master
           </div>
           <div class="col-lg-8 col-md-8 col-sm-8">
             <h2><?php echo $news['title']; ?></h2>

@@ -21,8 +21,13 @@
   </ul>
   <div class="row">
     <div class="col-lg-3 col-md-3 col-sm-3"> <a class="mbutton smooth" href="<?php echo $PATH; ?>industrial/" class="smooth" title="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West | Industrial">Industrial</a> </div>
+<<<<<<< HEAD
     <div class="col-lg-3 col-md-3 col-sm-3"> <a class="mbutton smooth" href="<?php echo $PATH; ?>commercial/" class="smooth" title="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West | Commercial">Commercial</a> </div>
     <div class="col-lg-3 col-md-3 col-sm-3"> <a class="mbutton active" href="<?php echo $PATH; ?>education/" class="smooth" title="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West | Education">Education</a> </div>
+=======
+    <div class="col-lg-3 col-md-3 col-sm-3"> <a class="mbutton active" href="<?php echo $PATH; ?>commercial/" class="smooth" title="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West | Commercial">Commercial</a> </div>
+    <div class="col-lg-3 col-md-3 col-sm-3"> <a class="mbutton smooth" href="<?php echo $PATH; ?>education/" class="smooth" title="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West | Education">Education</a> </div>
+>>>>>>> origin/master
     <div class="col-lg-3 col-md-3 col-sm-3"> <a class="mbutton smooth" href="<?php echo $PATH; ?>residential/" class="smooth" title="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West | Residential">Residential</a> </div>
   </div>
 </div>
@@ -30,6 +35,7 @@
   <h2>Education</h2>
   <div class="col-lg-12">
     <div>
+<<<<<<< HEAD
       <?php include("../admin/allsections.php");
 	  while($sections = mysql_fetch_array($data)) { ?>
       	<p><?php if($sections['title'] == 'EDUCATION') {
@@ -38,6 +44,13 @@
         <footer><?php echo $sections['ref']; } ?></footer>
       </blockquote>
       <?php } ?>
+=======
+      <p>We have vast experience of carrying out building and maintenance projects for a range of educational facilities and have always been praised on our ability to work within required time constraints.</p>
+ 	  <p>Whether you require a cyclical maintenance package or planned works outside of term time, we have the team to get the job done professionally, on time and on budget.</p>
+      <blockquote>In terms of value for money, final finish and impact on the learning environment, the school judges this project a huge success
+        <footer>Wistaston Green Primary School</footer>
+      </blockquote>
+>>>>>>> origin/master
     </div>
   </div>
 </div>

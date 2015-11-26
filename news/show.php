@@ -16,7 +16,11 @@ while($news = mysql_fetch_array($data)) { ?>
   <div class="wrap">
     <div class="row">
       <div class="item col-lg-12" id="<?php echo $news['id']; ?>">
+<<<<<<< HEAD
         <figure><img src="http://renewgroupuk.com/constructionlinx/uploads/<?php echo $news['image']; ?>" alt="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West | <?php echo $news['title']; ?>" /></figure>
+=======
+        <figure><img src="../uploads/<?php echo $news['image']; ?>" alt="Construction Linx Property Maintenance & Home Improvements Company, Crewe, Cheshire & North West | <?php echo $news['title']; ?>" /></figure>
+>>>>>>> origin/master
         <h2><?php echo $news['title']; ?></h2>
         <h4><?php echo str_replace('-', '/', substr($news['modified'], 0, 10)); ?></h4>
         <div class="row">

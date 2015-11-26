@@ -17,7 +17,10 @@
         <li><a href="<?php echo $PATH; ?>our-guarantee/" title="" class="smooth">Our Guarantee</a></li>
         <li><a href="<?php echo $PATH; ?>maintenance-options/" title="" class="smooth">Maintenance Options</a></li>
         <li><a href="<?php echo $PATH; ?>trades/" title="" class="smooth">Trades</a></li>
+<<<<<<< HEAD
         <li><a href="<?php echo $PATH; ?>news/" title="" class="smooth">News</a></li>
+=======
+>>>>>>> origin/master
         <li><a href="<?php echo $PATH; ?>contact/" title="" class="smooth">Contact</a></li>
       </ul>
     </div>

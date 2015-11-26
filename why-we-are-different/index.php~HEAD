@@ -64,36 +64,20 @@ hidden extras to pay. We guarantee our work for a minimum of 6 months."/>
       <h2>Testimonials</h2>
       <div class="carousel slide" data-ride="carousel">
         <div class="carousel-inner" role="listbox">
-          <div class="item active">
+          <?php include("../admin/alltest.php");
+		  $i = 0;
+		  while($tests = mysql_fetch_array($data)) { ?>
+          <div class="item <?php if($i == 0) echo 'active'; ?>">
             <div class="col-lg-12"><i class="fa fa-quote-left"></i></div>
             <div class="col-lg-12 text-center">
-              <h3>They helped us through the entire project, from initial designing all the way to industrial cleaning of the carpets prior to our moving in.</h3>
+              <h3><?php echo nl2br($tests['content']); ?></h3>
             </div>
             <div class="col-lg-12"><i class="fa fa-quote-right"></i></div>
             <div class="col-lg-12 text-center">
-              <p>Chris Sumner / Industrious</p>
+              <p><?php echo $tests['ref']; ?></p>
             </div>
           </div>
-          <div class="item">
-            <div class="col-lg-12"><i class="fa fa-quote-left"></i></div>
-            <div class="col-lg-12 text-center">
-              <h3>I would recommend them to any school who are considering building development projects.</h3>
-            </div>
-            <div class="col-lg-12"><i class="fa fa-quote-right"></i></div>
-            <div class="col-lg-12 text-center">
-              <p>Simon Dyson BA (Hons) NPQH / Head Teacher</p>
-            </div>
-          </div>
-          <div class="item">
-            <div class="col-lg-12"><i class="fa fa-quote-left"></i></div>
-            <div class="col-lg-12 text-center">
-              <h3>Construction Linx gives me an excellent management team to complete multiple projects.</h3>
-            </div>
-            <div class="col-lg-12"><i class="fa fa-quote-right"></i></div>
-            <div class="col-lg-12 text-center">
-              <p>Chris Sumner / Industrious</p>
-            </div>
-          </div>
+          <?php $i++; } ?>
         </div>
       </div>
     </div>

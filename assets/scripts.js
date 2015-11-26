@@ -10,7 +10,11 @@ $(document).ready(function() {
 	$('.rslides').responsiveSlides();
 	//Map
 	if($('.contact').length) {
+<<<<<<< HEAD
 	    var myLatlng = new google.maps.LatLng(53.082840, -2.398819);
+=======
+		var myLatlng = new google.maps.LatLng(53.086235, -2.427918);
+>>>>>>> origin/master
 		var mapOptions = {
 			zoom: 17,
 			center: myLatlng,
